@@ -1248,7 +1248,7 @@ export interface components {
       /** @description When type = 'list', this is the list of values for the attribute key */
       values?: (string)[];
       description?: string;
-      /** @description Whether the saved group must be referenced by ID rather than its list of members for performance reasons */
+      /** @description Whether the saved group must be referenced by ID rather than its list of items for performance reasons */
       passByReferenceOnly?: boolean;
     };
     Organization: {
@@ -5003,7 +5003,7 @@ export interface operations {
                 /** @description When type = 'list', this is the list of values for the attribute key */
                 values?: (string)[];
                 description?: string;
-                /** @description Whether the saved group must be referenced by ID rather than its list of members for performance reasons */
+                /** @description Whether the saved group must be referenced by ID rather than its list of items for performance reasons */
                 passByReferenceOnly?: boolean;
               })[];
           }) & {
@@ -5062,7 +5062,7 @@ export interface operations {
               /** @description When type = 'list', this is the list of values for the attribute key */
               values?: (string)[];
               description?: string;
-              /** @description Whether the saved group must be referenced by ID rather than its list of members for performance reasons */
+              /** @description Whether the saved group must be referenced by ID rather than its list of items for performance reasons */
               passByReferenceOnly?: boolean;
             };
           };
@@ -5099,7 +5099,7 @@ export interface operations {
               /** @description When type = 'list', this is the list of values for the attribute key */
               values?: (string)[];
               description?: string;
-              /** @description Whether the saved group must be referenced by ID rather than its list of members for performance reasons */
+              /** @description Whether the saved group must be referenced by ID rather than its list of items for performance reasons */
               passByReferenceOnly?: boolean;
             };
           };
@@ -5150,7 +5150,7 @@ export interface operations {
               /** @description When type = 'list', this is the list of values for the attribute key */
               values?: (string)[];
               description?: string;
-              /** @description Whether the saved group must be referenced by ID rather than its list of members for performance reasons */
+              /** @description Whether the saved group must be referenced by ID rather than its list of items for performance reasons */
               passByReferenceOnly?: boolean;
             };
           };
