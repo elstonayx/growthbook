@@ -902,6 +902,7 @@ export interface components {
       sseEnabled?: boolean;
       hashSecureAttributes?: boolean;
       remoteEvalEnabled?: boolean;
+      savedGroupReferencesEnabled?: boolean;
     };
     Experiment: {
       id: string;
@@ -2965,6 +2966,7 @@ export interface operations {
                 sseEnabled?: boolean;
                 hashSecureAttributes?: boolean;
                 remoteEvalEnabled?: boolean;
+                savedGroupReferencesEnabled?: boolean;
               })[];
           } & {
             limit: number;
@@ -2997,6 +2999,7 @@ export interface operations {
           proxyHost?: string;
           hashSecureAttributes?: boolean;
           remoteEvalEnabled?: boolean;
+          savedGroupReferencesEnabled?: boolean;
         };
       };
     };
@@ -3031,6 +3034,7 @@ export interface operations {
               sseEnabled?: boolean;
               hashSecureAttributes?: boolean;
               remoteEvalEnabled?: boolean;
+              savedGroupReferencesEnabled?: boolean;
             };
           };
         };
@@ -3076,6 +3080,7 @@ export interface operations {
               sseEnabled?: boolean;
               hashSecureAttributes?: boolean;
               remoteEvalEnabled?: boolean;
+              savedGroupReferencesEnabled?: boolean;
             };
           };
         };
@@ -3107,6 +3112,7 @@ export interface operations {
           proxyHost?: string;
           hashSecureAttributes?: boolean;
           remoteEvalEnabled?: boolean;
+          savedGroupReferencesEnabled?: boolean;
         };
       };
     };
@@ -3141,6 +3147,7 @@ export interface operations {
               sseEnabled?: boolean;
               hashSecureAttributes?: boolean;
               remoteEvalEnabled?: boolean;
+              savedGroupReferencesEnabled?: boolean;
             };
           };
         };
