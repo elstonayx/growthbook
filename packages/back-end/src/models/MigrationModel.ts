@@ -14,7 +14,7 @@ type MigrationInterface = {
 };
 
 const MigrationModel = mongoose.model<MigrationInterface>(
-  "growbookmigrations",
+  "growthbookmigrations",
   migrationSchema
 );
 
